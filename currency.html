@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./currency.css">
+</head>
+<body class="bg-success">
+
+    <div class="container">
+        <h1 class="text-center text-danger mt-2 bg-warning width-setter">Currency Converter</h1>
+        <div class="box m-auto border w-50 mt-5">
+            <div class="form">
+                <div>
+                    <select name="usergiven" id="usergiven" class="rounded">
+                    <option value="USD">USD</option>
+                    </select>
+                    <input id="userGivenInput">
+                </div>
+                <div>
+                    <select name="targetToBe" id="targetToBe" class="rounded">
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result-box">
+                <input type="text" name="" id="result" class="output">
+            </div>
+            <div class="for-Result">
+                <button class="btn bg-success">Result</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./currency.js"></script>
+</body>
+</html>
